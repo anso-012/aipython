@@ -100,6 +100,13 @@ def print_rabbit():
     for line in rabbit:
         print(line)
 
+#무한반복
+while True:
+    ...
+    if n == 0:
+        print("프로그램을 종료합니다.")
+        break
+
 # ▶ 5번 반복
 for _ in range(5):
     print("그림 출력 프로그램")
@@ -124,3 +131,6 @@ for _ in range(5):
         print_rabbit()
     else:
         print("잘못입력")
+
+
+print("0을 입력하면 종료 프로그램 종료 ")
